@@ -53,7 +53,7 @@ const handleAddTask = () => {
   taskAdded.value = true;
   setTimeout(() => {
     taskAdded.value = false;
-  }, 500);
+  }, 1000);
 };
 </script>
 
